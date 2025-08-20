@@ -1,0 +1,46 @@
+body{
+  background: #12121a;
+  color: #ddd;
+  
+  
+}
+.gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 150px);
+  ; gap: 10px;
+  align-items: center
+  
+      
+  
+      
+  
+    }
+    .video-thumb {
+      cursor: pointer;
+    }
+    .video-thumb video {
+      width: 80%;
+      height: 80%;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 0 8px #ddd;
+    }
+h1{
+  text-shadow: 0 0 5px #444;
+  font-family: sans serif;
+  
+}
+.gallery{
+  border: 1px solid ##aaa;
+  width: 90%;
+  margin: 10px;
+  padding: 5px;
+  
+  
+  
+  
+  box-shadow: 0 0 5px #666
+}
+
+
+
